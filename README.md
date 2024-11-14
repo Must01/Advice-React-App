@@ -1,8 +1,15 @@
-# React + Vite
+# Advice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple advice app built using React, HTML, and CSS, which fetches random advice from an API and displays it to the user.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Random Advice**: Fetches random advice from an API each time the user interacts with the app.
+- **Responsive Design**: The app is fully responsive and works across different devices.
+- **User Interface**: Designed with a clean and modern interface using HTML and CSS.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **HTML & CSS**: Basic building blocks for structuring and styling the webpage.
+- **Advice API**: A free API that provides random advice.
