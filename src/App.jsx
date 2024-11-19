@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
+import logo from './images/mbAdvice.png'
 
 function App() {
   const [state, setState] = useState("");
@@ -27,15 +28,22 @@ function App() {
   return (
     <>
       <div className="app">
-        <div className="card">
-          <h2 className="heading">{state}</h2>
-          <button className="button" onClick={fetchAdvice}>
-            Give Me Advice!
-          </button>
+        <div className="navbar">
+          <img src={logo} alt="Mb Advice" />
         </div>
-      </div>
-      <div className="madeBy">
-        <span>Made by ♥ Mustapha Bouddahr</span>
+        <div className="main">
+          <div className="card">
+            <h2 className="heading">{state}</h2>
+            <button className="button" onClick={fetchAdvice}>
+              Give Me Advice!
+            </button>
+          </div>
+        </div>
+        <div className="footer">
+          <span>
+            Made by <span className="heart">❤</span> Mustapha Bouddahr
+          </span>
+        </div>
       </div>
     </>
   );
