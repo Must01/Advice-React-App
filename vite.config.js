@@ -1,7 +1,10 @@
+import { defineConfig } from "vite"; // Import defineConfig from Vite
+import react from "@vitejs/plugin-react"; // Import the react plugin
+
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react()], // Use the react plugin
   build: {
-    outDir: "dist", // Ensure the output directory is 'dist'
+    outDir: "dist", // Output folder for build
     rollupOptions: {
       external: [],
     },
