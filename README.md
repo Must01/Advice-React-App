@@ -2,6 +2,12 @@
 
 A simple advice app built using React, HTML, and CSS, which fetches random advice from an API and displays it to the user.
 
+# app design : 
+![image](https://github.com/user-attachments/assets/b7d123bd-9562-4ea8-b451-f925dd5f566d)
+
+## hosted at : 
+https://mbadvice.netlify.app/
+
 ## Features
 
 - **Random Advice**: Fetches random advice from an API each time the user interacts with the app.
