@@ -33,7 +33,7 @@ function App() {
         </div>
         <div className="main">
           <div className="card">
-            <h2 className="heading">{state}</h2>
+            <h2 className="heading"><p>{state}</p></h2>
             <button className="button" onClick={fetchAdvice}>
               Give Me Advice!
             </button>
